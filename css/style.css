@@ -34,15 +34,8 @@
 
   --border-radius-sx: 19px;
 
-  /* TYpografía */
+  /* TYPOGRAPHY */
   --h1-size: 28px;
-
-  font-family: Inter;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 0.84px;
 }
 
 html {
@@ -67,6 +60,20 @@ body {
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  color: #08091b;
+}
+.header__titulo {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+.header__descripcion {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130.2%; /* 20.832px */
+  letter-spacing: -0.32px;
 }
 .header__imgcontainer {
   width: 300px;
