@@ -8,12 +8,67 @@
 
 /* Tipografía */
 @font-face {
-  font-family: "";
-  src: url("") format("woff2"), url("") format("woff");
+  font-family: "Inter-regular";
+  src: url("/font/Inter-Regular.woff2") format("woff2"), url("") format("woff");
 }
 
-/* ******************************** */
+:root {
+  /* ******************************** */
+  /* Colores */
+  /* ******************************** */
+  --color-background: #2a79eb;
+  --color-secondary: #f3f5f8;
+  --color-primary: #ffffff;
+  --color-button1: #08091b;
+  --color-button2: #08091b;
 
-/* Colores */
+  --color-text-primary: #08091b;
+  --color-text-secondary: #c1c5cb;
 
-/* ******************************** */
+  /* ******************************** */
+  /* Tamaños */
+  /* ******************************** */
+  --screen-size-smarthphone: 390px;
+  --screen-size-desktop: 1080px;
+  --screen-size-desktop-internal: 1366px;
+
+  --border-radius-sx: 19px;
+
+  /* TYpografía */
+  --h1-size: 28px;
+
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  width: 357px;
+}
+
+.header {
+  width: 100%;
+  height: 657px;
+  background-color: var(--color-secondary);
+}
+.header__cabezera {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.header__imgcontainer {
+  width: 300px;
+  height: 262px;
+}
